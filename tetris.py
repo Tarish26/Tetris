@@ -30,7 +30,7 @@ pygame.time.set_timer(GAME_UPDATE,250)
 while True:
     for event in pygame.event.get():#Gets all the events the pygame recognizes
         if event.type==pygame.QUIT:
-            pygame.quit
+            pygame.quit#what is this
             sys.exit()
         if event.type==pygame.KEYDOWN:
             if game.gameover==True:
